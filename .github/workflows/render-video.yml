@@ -27,6 +27,7 @@ jobs:
       - uses: actions/setup-node@main
       - run: sudo apt update
       - run: sudo apt install ffmpeg
+      - run: sudo apt install youtube-dl      
       - run: npm i
       - run: npm run build -- --props="$WORKFLOW_INPUT"
         env:
