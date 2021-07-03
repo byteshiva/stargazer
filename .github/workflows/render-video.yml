@@ -4,11 +4,11 @@ on:
       repoOrg:
         description: "Repo Org"
         required: true
-        default: "pomber"
+        default: "byteshiva"
       repoName:
         description: "Repo Name"
         required: true
-        default: "didact"
+        default: "stargazer"
       starCount:
         description: "Star Count"
         required: true
